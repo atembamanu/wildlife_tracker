@@ -1,0 +1,22 @@
+body{
+    background-color: #3B7A57;
+    font-family: 'Poppins', sans-serif;
+}
+.introduction{
+position: relative;
+}
+.navbar-toggler, nav  a{
+   color: #FFFFFF;
+   }
+a.navbar-brand {
+font-size: 34px;
+ }
+nav a:hover{
+color: #7A3B5E;
+}
+#lion-image{
+position: fixed;
+right: 0px;
+bottom: 0px;
+padding: 0px;
+}
