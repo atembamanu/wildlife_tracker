@@ -103,6 +103,7 @@ public class Animal extends WildAnimals implements helpers.Animal {
         }
     }
 
+
     @Override
     public int getId() {
 
