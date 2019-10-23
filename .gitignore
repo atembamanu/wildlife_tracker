@@ -54,4 +54,4 @@ settings.gradle
 .idea/
 !gradle-wrapper.jar
 
-credentials/
+src/main/java/db/Credentials.java
