@@ -9,5 +9,8 @@ public abstract class WildAnimals {
     public String type;
     public  String health;
     public  String age;
+    public static final String[] ageTypes = {"New born", "Young","Adult"};
+    public static  final String[] healthStatuses = {"Healthy", "Ill", "Okay"};
+
 }
 
