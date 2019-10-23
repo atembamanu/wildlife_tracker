@@ -113,4 +113,13 @@ public class Sighting {
         }
     }
 
+    public static List<Animal> getAll(){
+        String sql = "SELECT id, name FROM animals;";
+        try(Connection con = DB.sql2o.open()) {
+            return con.createQuery(sql)
+                    .executeAndFetch(Animal.class);
+        }
+    }
+
+
 }
